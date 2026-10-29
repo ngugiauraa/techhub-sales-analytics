@@ -54,3 +54,5 @@ The til system export dataset features a series of unstructured, hand-typed valu
 Task 8 executes a diagnostic test loop comparing native loop data metrics directly against an isolated `pandas.DataFrame` processing matrix. 
 
 To bypass tiny floating-point arithmetic deviations introduced by machine-level binary code storage boundaries, threshold checks are stabilized using an absolute distance margin: `abs(pandas_result - python_result) < 0.01`. A perfect **`MATCH`** status is logged to the system console only if the calculations match to within 1 cent.
+
+Built by [Jesse Ngugi](https://ngugi.pages.dev)
