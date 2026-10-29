@@ -9,7 +9,7 @@ Follow these step-by-step setup commands inside your terminal window to initiali
 ### 1. Configure the Virtual Workspace Environment
 Isolate your package manager dependencies cleanly from your global system environment variables:
 ```bash
-# Re-activate your local python environment sandbox setup
+
 source venv/Scripts/activate
 ```
 

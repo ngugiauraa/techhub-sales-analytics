@@ -1,0 +1,47 @@
+==================================================
+         TECH HUB KENYA - SEPTEMBER REVENUES      
+==================================================
+Grand Total Revenue            : KES 1,291,813.00
+Total Operational Clean Rows   : 45
+Total Rows Excluded/Dropped    : 5
+
+--- Revenue Distribution Ranking By Product ---
+ * HP 15 Laptop             : KES 389,994.00
+ * Hisense 43in Smart TV    : KES 272,993.00
+ * Lenovo Tab M10           : KES 199,992.00
+ * Tecno Spark 20           : KES 161,988.00
+ * Infinix Hot 40           : KES 63,996.00
+ * JBL Go 3 Speaker         : KES 49,491.00
+ * Anker Power Bank 20000   : KES 38,691.00
+ * Samsung Galaxy A15       : KES 37,998.00
+ * Xiaomi Redmi Buds        : KES 25,592.00
+ * Oraimo FreePods          : KES 19,593.00
+ * USB-C Charger 25W        : KES 19,487.00
+ * Safaricom Neon Ray       : KES 11,998.00
+
+--- Top Three Products Leaderboard ---
+ 1. HP 15 Laptop              : KES 389,994.00
+ 2. Hisense 43in Smart TV     : KES 272,993.00
+ 3. Lenovo Tab M10            : KES 199,992.00
+
+--- Follow-up High-Value Deals Tracker (>= KES 50,000.00) ---
+Total High Value Deals Found   : 5
+ * Order #? | Westgate   | Lenovo Tab M10  | Qty: 4 | Total: KES 99,996.00
+ * Order #? | Kisumu Mega Plaza | Hisense 43in Smart TV | Qty: 4 | Total: KES 155,996.00
+ * Order #? | Nairobi CBD | HP 15 Laptop    | Qty: 4 | Total: KES 259,996.00
+ * Order #? | Nakuru Westside | Tecno Spark 20  | Qty: 4 | Total: KES 53,996.00
+ * Order #? | Kisumu Mega Plaza | HP 15 Laptop    | Qty: 2 | Total: KES 129,998.00
+
+--- High-Value Volume Breakdown By Regional Location Shop ---
+ * Kisumu Mega Plaza: 2 premium sales transactions tracked
+ * Nakuru Westside: 1 premium sales transactions tracked
+ * Westgate       : 1 premium sales transactions tracked
+ * Nairobi CBD    : 1 premium sales transactions tracked
+ * Mombasa City Mall: 0 premium sales transactions tracked
+
+--- Operational Transaction Statistics Summary ---
+ Mean Transaction Revenue      : KES 28,706.96
+ Median Transaction Revenue    : KES 10,998.00
+ Minimum Single Order Size     : KES 1,499.00
+ Maximum Single Order Size     : KES 259,996.00
+==================================================

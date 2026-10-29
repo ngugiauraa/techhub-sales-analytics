@@ -34,7 +34,7 @@ def convert_rows(rows: list[dict[str, str]]) -> tuple[list[dict], list[dict]]:
 
     for idx, r in enumerate(rows, start=1):
         raw_qty = r.get("quantity", "")
-        raw_price = r.get("unit_price", "")
+        raw_price = r.get("unit_price_kes", "")
 
         parsed_qty = parse_number(raw_qty)
         parsed_price = parse_number(raw_price)
@@ -157,18 +157,18 @@ def verify_with_pandas(path: Path, my_results: dict) -> None:
         df = pd.read_csv(path)
         
         # Re-apply our custom data cleaning
-        for col in ['quantity', 'unit_price']:
+        for col in ['quantity', 'unit_price_kes']:
             df[col] = df[col].astype(str).str.replace('KES', '', case=False)
             df[col] = df[col].str.replace(',', '').str.strip()
             df[col] = pd.to_numeric(df[col], errors='coerce')
             
         # Drop rows missing critical numeric entries
-        df = df.dropna(subset=['quantity', 'unit_price'])
-        df = df[(df['quantity'] > 0) & (df['unit_price'] >= 0)]
+        df = df.dropna(subset=['quantity', 'unit_price_kes'])
+        df = df[(df['quantity'] > 0) & (df['unit_price_kes'] >= 0)]
         
         # Force correct whole data types and compute the derived metrics
         df['quantity'] = df['quantity'].astype(int)
-        df['revenue'] = df['quantity'] * df['unit_price']
+        df['revenue'] = df['quantity'] * df['unit_price_kes']
         
         # 1. Verify Grand Total Revenue
         pd_total_rev = float(df['revenue'].sum())
